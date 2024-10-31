@@ -12,8 +12,6 @@ primary color: #357b70
 secondary color: #800080
 active link color: #ff0000
 button primary color: #357b70
-button secondary: #ff0000
-button third: #b8860b
 grid background color: #9e9696
 my-link color: #8c00ff
 */
@@ -68,26 +66,6 @@ border-bottom: 2px solid darkgreen;
 button:hover, button:focus{
 cursor: pointer;
 opacity: 0.8;
-}
-.button-secondary{
-border: none;
-font-family: inherit;
-background-color: #ff0000;
-color: white;
-text-decoration: none;
-padding: 10px;
-border-radius: 10px;
-border-bottom: 2px solid rebeccapurple;
-}
-.button-third{
-border: none;
-font-family: inherit;
-background-color: #b8860b;
-color: white;
-text-decoration: none;
-padding: 10px;
-border-radius: 10px;
-border-bottom: 2px solid yellow;
 }
 div{
 margin: 10px;
@@ -150,16 +128,7 @@ list-style-type: none;
 display: inline-block;
 margin-left: 15px;
 }
-.navigation-list_item--home{
-text-decoration: none;
-}
-.navigation-list_item--about {
-text-decoration: none;
-}
-.navigation-list_item--work {
-text-decoration: none;
-}
-.navigation-list_item--contact{
+.navigation-list_item--active{
 text-decoration: none;
 }
 .project-list{
@@ -209,7 +178,24 @@ grid-row-end: 3;
 h2{
   font-size: 22px;
 }
-.resume, .resume{
+.resume{
+border: none;
+display: inline-block;
+font-family: inherit;
+background-color: #357b70;
+color: white;
+text-decoration: none;
+padding: 10px;
+border-radius: 3px;
+border-bottom: 2px solid darkgreen;
+-webkit-transition-duration: 0.2s;
+     -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+-webkit-transition-property: opacity;
+-o-transition-property: opacity;
+transition-property: opacity;   
+}
+.resume{
 border: none;
 display: inline-block;
 font-family: inherit;

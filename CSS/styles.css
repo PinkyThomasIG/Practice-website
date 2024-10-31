@@ -5,8 +5,6 @@ primary color: #357b70
 secondary color: #800080
 active link color: #ff0000
 button primary color: #357b70
-button secondary: #ff0000
-button third: #b8860b
 grid background color: #9e9696
 my-link color: #8c00ff
 */
@@ -22,7 +20,6 @@ h3 font size: 15px*/
   --active-link: #ff0000;
   --button--primary-color: #357b70;
   --button-secondary-color: #ff0000;
-  --button-third: #b8860b;
   --grid-bg: #9e9696;
   --my-link-color: #8c00ff;
   --h1-font-size: 20px;
@@ -78,26 +75,6 @@ button:hover, button:focus{
   cursor: pointer;
   opacity: 0.8;
 }
-.button-secondary{
-  border: none;
-  font-family: inherit;
-  background-color: var(--button-secondary-color);
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 10px;
-  border-bottom: 2px solid rebeccapurple;
-}
-.button-third{
-  border: none;
-  font-family: inherit;
-  background-color: var(--button-third);
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 10px;
-  border-bottom: 2px solid yellow;
-}
 div{
   margin: 10px;
   padding: 40px;
@@ -143,16 +120,7 @@ div{
   display: inline-block;
   margin-left: 15px;
 }
-.navigation-list_item--home{
-  text-decoration: none;
-}
-.navigation-list_item--about {
-  text-decoration: none;
-}
-.navigation-list_item--work {
-  text-decoration: none;
-}
-.navigation-list_item--contact{
+.navigation-list_item--active{
   text-decoration: none;
 }
 .project-list{
@@ -198,7 +166,7 @@ div{
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   padding: 10px;
