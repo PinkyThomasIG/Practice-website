@@ -145,8 +145,8 @@ div{
 }
 .project-list{
   display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-rows: 400px 400px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
   grid-gap:var(--grid-gap);
 }
 .project-list-item{
