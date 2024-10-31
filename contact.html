@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<link rel="short icon" href="./img/favicon.jpg">
+<link rel="stylesheet" href="./CSS/normalize.css">
+<link rel="stylesheet" type="text/css" href="./css/style.production.css">
+</head>
+<body>
+    <header class="page-header"> 
+        <img src="./img/logo.jpg" height="50" width="50" class="page-header-item" alt="This is a logo"> 
+        <nav class="main-navigation-page-header-item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="naviagtion-list_item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="naviagtion-list_item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="naviagtion-list_item">work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="naviagtion-list_item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <div>
+    <h2>Contact details</h2>
+    Pinky Thomas <p>
+        Memeler str 56
+    </p>
+    68307, Mannheim
+    <p>
+        Email me on <a href="mailto:pinkymukalal@gmail.com">pinkymukalal@gmail.com</a>
+    </p>
+    Call me on <a href="Tel:+491516685325">+491516365325</a> 
+    <p>
+    <a href="#"> <span class="my-link"> Checkout me code here</span></a>
+    </p>
+    </div>
+    <form action="contact-form" method="post">
+        <label for="Full name"> Full name</label>
+        <input type="user_name" required>
+        <p>
+            <label for="Email">Email</label>
+            <input type="user_email" required>
+        </p>
+        <label for="telephone">Telephone</label>
+        <input type="telephone" pattern="[\+]\d{2}[\-]\d{4}[\-]\d{7}" required>
+        <p>
+        <label for="message">Message</label>
+        <textarea maxlength="240" name="user_message" required id="user_message"></textarea>
+        <button type="submit"> Send your message</button>
+        </p>
+    </form>
+    
+    <footer>
+        <h3>Find me on</h3>
+        <p>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="./img/svg imgs/linkdin.svg" height="50" width="50" alt="Linkdin logo"></a>
+        <a href="https://x.com/?lang=en" target="_blank"><img src="./img/svg imgs/twitter.svg" height="50" width="50" alt="Twitter logo"></a>
+        <a href="https://github.com/" target="_blank"><img src="./img/svg imgs/GitHub.svg" height="50" width="50" alt="Github logo"></a>
+        </p>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>
