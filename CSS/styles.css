@@ -143,7 +143,16 @@ div{
   display: inline-block;
   margin-left: 15px;
 }
-.navigation-list_item--active{
+.navigation-list_item--home{
+  text-decoration: none;
+}
+.navigation-list_item--about {
+  text-decoration: none;
+}
+.navigation-list_item--work {
+  text-decoration: none;
+}
+.navigation-list_item--contact{
   text-decoration: none;
 }
 .project-list{
